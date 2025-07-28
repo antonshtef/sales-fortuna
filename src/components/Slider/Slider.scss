@@ -1,0 +1,58 @@
+@import '../../utils/mixins.scss';
+
+.slider {
+
+  &__container {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    gap: 28px;
+  }
+
+  &__content {
+    width: 1176px;
+    overflow: hidden;
+
+    @include on-desctop {
+      width: 778px;
+    }
+
+    @include on-tablet {
+      width: 380px;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    transition-duration: 0.5s;
+  }
+
+  &__button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &--disabled {
+      pointer-events: none;
+      filter: brightness(0.9);
+    }
+
+    @include on-mobile {
+      display: none;
+    }
+  }
+
+  &__dots {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+  }
+}

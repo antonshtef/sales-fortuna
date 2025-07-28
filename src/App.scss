@@ -1,0 +1,73 @@
+@import './utils/fonts.scss';
+@import './utils/mixins.scss';
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .wrapper {
+//   width: 100vw;
+//   height: 100vh;
+// }
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  max-height: 755px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/image/sales-fortuna-bg_image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1363px;
+  height: 663.31px;
+  
+
+  &__title {
+   margin-bottom: 34px;
+   height: 77px;
+
+   @include on-mobile {
+    margin-bottom: 10px;
+   }
+  }
+
+  &__text {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0%;
+
+    @include on-tablet {
+      font-size: 32px;
+    }
+
+    @include on-mobile {
+      line-height: 100%;
+      text-align: center;
+      font-size: 30px;
+      padding-inline: 20px;
+    }
+  }
+}

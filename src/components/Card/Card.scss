@@ -1,0 +1,75 @@
+@import '../../utils/fonts.scss';
+
+.card {
+  // width: 380px;
+  min-width: 380px;
+  height: 502px;
+  border: solid 1px #B6B1B1;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+ &__container {
+  padding: 49px 35px 20px 26px;
+  height: 100%;
+ }
+
+ &__logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+
+ }
+
+ &__main {
+  margin-top: 20px;
+  height: 170px;
+ }
+
+ &__text {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  color: #9B9A99;
+ }
+
+ &__quotes {
+  display: flex;
+  justify-content: right;
+ }
+
+ &__autor {
+  margin-top: 30px;
+  display: flex;
+  gap: 17px;
+ }
+
+ &__autor_img {
+  width: 60px;
+  height: 60px;
+ }
+
+ &__autor_text {
+  display: flex;
+  flex-direction: column;
+ }
+
+ &__autor_name {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  color: #000000;
+ }
+
+ &__autor_info {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #000000;
+ }
+}
