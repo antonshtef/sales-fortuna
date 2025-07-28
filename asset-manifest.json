@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sales-fortuna/static/css/main.bfe6a1ed.css",
+    "main.js": "/sales-fortuna/static/js/main.aeecad95.js",
+    "static/media/autor11_img.svg": "/sales-fortuna/static/media/autor11_img.5bfd4ff664fc85c62e12106acf6143a1.svg",
+    "static/media/autor33_img.svg": "/sales-fortuna/static/media/autor33_img.9aa774ae7e46cd6d2ed4f3437a543137.svg",
+    "static/media/autor222_img.svg": "/sales-fortuna/static/media/autor222_img.8fba701e081b5c42168cd346cd1559b7.svg",
+    "static/media/sales-fortuna-bg_image1.jpg": "/sales-fortuna/static/media/sales-fortuna-bg_image1.32a13fdfe8faa6a2b3c8.jpg",
+    "static/media/sales-fortuna-logo1.svg": "/sales-fortuna/static/media/sales-fortuna-logo1.4e8c3682232a8df40e6d25d63c538525.svg",
+    "static/media/SpaceGrotesk-Medium.ttf": "/sales-fortuna/static/media/SpaceGrotesk-Medium.11c47748414ab8a89db0.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/sales-fortuna/static/media/SpaceGrotesk-Bold.0f25a4444d02faac4f60.ttf",
+    "static/media/sales-fortuna-logo2.svg": "/sales-fortuna/static/media/sales-fortuna-logo2.3aec732ff57578fdd40299d14f6f64e9.svg",
+    "static/media/sales-fortuna-logo3.svg": "/sales-fortuna/static/media/sales-fortuna-logo3.611b788a2a77ca0e988875e74fe2f181.svg",
+    "static/media/sales-fortuna-quotes.svg": "/sales-fortuna/static/media/sales-fortuna-quotes.0c02a13ec5ee46de17e9dc828b150086.svg",
+    "index.html": "/sales-fortuna/index.html",
+    "static/media/button-right.svg": "/sales-fortuna/static/media/button-right.0f30b01846ac98a8fb4c5481b6898774.svg",
+    "static/media/button-left.svg": "/sales-fortuna/static/media/button-left.9743de944f52f0c22901ae08e467e262.svg",
+    "static/media/dot-dark.svg": "/sales-fortuna/static/media/dot-dark.d2ed8c4af303069ce17e22be98ce48e3.svg",
+    "static/media/dot-light.svg": "/sales-fortuna/static/media/dot-light.2efb1d129e00f773a226f3dd0dbc0380.svg",
+    "main.bfe6a1ed.css.map": "/sales-fortuna/static/css/main.bfe6a1ed.css.map",
+    "main.aeecad95.js.map": "/sales-fortuna/static/js/main.aeecad95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfe6a1ed.css",
+    "static/js/main.aeecad95.js"
+  ]
+}
