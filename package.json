@@ -1,8 +1,8 @@
 {
-  "homepage": "https://antonshtef.github.io/sales-fortuna/",
   "name": "test-sales-fortuna",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://antonshtef.github.io/sales-fortuna/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
