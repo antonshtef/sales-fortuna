@@ -1,11 +1,8 @@
 import "./App.scss";
 import { Slider } from "./components/Slider";
-// import dotDark from '../src/image/dots/dot-dark.svg';
-// import dotLight from '../src/image/dots/dot-light.svg';
 
 function App() {
   return (
-    <div className="wrapper">
       <div className='block'>
         <div className='container'>
           <div className='container__title'>
@@ -18,7 +15,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
